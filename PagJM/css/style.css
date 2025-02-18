@@ -27,7 +27,17 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 1.5rem 0;
+  padding: 1rem 0;
+  margin: 0 auto;
+}
+
+.contain-header{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -39,15 +49,14 @@ a {
 }
 
 .header-brand {
-  background-image: url('../img/logo.png');
+  background-image: url('../img/Logooficial.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
-  width: 20%;
+  background-size: cover;
+  width: 18%;
   height: 80px;
   color: #FFF;
   font-size: 3rem;
-  margin-left: 2%;
   
 }
 
@@ -136,7 +145,6 @@ ul {
 
 .header-social-media{
   width: 12%;
-  margin-right: 3%;
 }
 
 .header-social-media ul {
@@ -176,7 +184,7 @@ ul {
 }
 
 #slide1{
-  background-image: url('../img/bmw1-G.jpg');
+  background-image: url('../img/img01.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -453,7 +461,7 @@ svg{
 }
 
 .gallery #card-2 {
-  background-image: url("../img/pneu.webp");
+  background-image: url("../img/Trocapeneu.jpg");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -464,11 +472,11 @@ svg{
 .gallery #card-2:hover {
   background-size: 110%;
   filter: grayscale(0%);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/pneu.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/Trocapeneu.jpg");
 }
 
 .gallery #card-3 {
-  background-image: url("../img/bateria.jpeg");
+  background-image: url("../img/enraiacao.jpeg");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -479,11 +487,11 @@ svg{
 .gallery #card-3:hover {
   background-size: 110%;
   filter: grayscale(0%);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bateria.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/enraiacao.jpeg");
 }
 
 .gallery #card-4 {
-  background-image: url("../img/revisao.jpg");
+  background-image: url("../img/revisao.jpeg");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -494,7 +502,7 @@ svg{
 .gallery #card-4:hover {
   background-size: 110%;
   filter: grayscale(0%);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/revisao.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/revisao.jpeg");
 }
 
 .gallery #card-5 {
@@ -528,7 +536,7 @@ svg{
 }
 
 .gallery #card-7 {
-  background-image: url("../img/arcon.avif");
+  background-image: url("../img/");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -543,7 +551,7 @@ svg{
 }
 
 .gallery #card-8 {
-  background-image: url("../img/eletronico.jpg");
+  background-image: url("../img/motor.jpg");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -554,7 +562,7 @@ svg{
 .gallery #card-8:hover {
   background-size: 110%;
   filter: grayscale(0%);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/eletronico.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/motor.jpg");
 }
 
 .gallery #card-9 {
@@ -567,6 +575,51 @@ svg{
 }
 
 .gallery #card-9:hover {
+  background-size: 110%;
+  filter: grayscale(0%);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/eletrica.jpg");
+}
+
+.gallery #card-10 {
+  background-image: url("../img/alinhamentocalha.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition: 0.6s;
+}
+
+.gallery #card-10:hover {
+  background-size: 110%;
+  filter: grayscale(0%);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/alinhamentocalha.jpg");
+}
+
+.gallery #card-11 {
+  background-image: url("../img/");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition: 0.6s;
+}
+
+.gallery #card-11:hover {
+  background-size: 110%;
+  filter: grayscale(0%);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img");
+}
+
+.gallery #card-12 {
+  background-image: url("../img/eletrica.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition: 0.6s;
+}
+
+.gallery #card-12:hover {
   background-size: 110%;
   filter: grayscale(0%);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/eletrica.jpg");
@@ -586,11 +639,10 @@ svg{
   align-items: center;
   margin: auto;
   width: 80%; 
+  position: relative;
 }
 
 .content{
-  list-style: none;
-  list-style-type: none;
   padding: 0;
   margin: 0;
   background-image: url('../img/bg_dot.png');
@@ -599,33 +651,6 @@ svg{
   background-position: center top;
 }
 
-.content:before,
-.content:after{
-  display: table;
-  content: "";
-  line-height: 0;
-}
-
-.content:after{
-  clear: both;
-}
-
-.content ul{
-  list-style: none;
-  list-style-type: none;
-  margin: 5% 0;
-}
-
-.content ul:before,
-.content ul:after {
-  display: table;
-  content: "";
-  line-height: 0;
-}
-
-.content ul:after {
-  clear: both;
-}
 
 .content-avatar {
   position: relative;
@@ -662,8 +687,7 @@ svg{
   overflow: hidden;
 }
 
-.content-avatar:after,
-.content-avatar:before {
+.content-avatar:after {
   top: 99%;
   border: solid transparent;
   content: " ";
@@ -680,196 +704,45 @@ svg{
   margin-left: -10.5px;
 }
 
-.content-avatar:before {
-  border-bottom-color: rgba(0, 0, 0, 0.01);
-  border-width: 12px;
-  left: 50%;
-  margin-left: -12px;
-}
-
-.content-item {
+.ul-contain-sobre{
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
   position: relative;
-  right: 10%;
-  float: left;
-  width: 45%;
-  margin-top:5%;
-  clear: both;
-  padding: 2%;
+  z-index: 1;
   color: #000000;
-  background: #ffffff;
-  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.15);
-  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.15);
-  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  margin-top: 30px;
+  width: 100%;
+  gap: 20px;
+ 
+}
+
+.h3-sobre{
+  color: #000620;
+  font-size: 24px;
+}
+.ul-contain-sobre li {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between; 
   
 }
 
-.content-item:before,
-.content-item:after {
-  display: table;
-  content: "";
-  line-height: 0;
+.sobre-esquerdo{
+  align-self: flex-start;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  width: 45%;
+  border-radius: 5px;
 }
 
-.content-item:after {
-  clear: both;
+.sobre-direito{
+  padding: 20px;
+  align-self: flex-end;
+  width: 45%;
+  background-color: #fff;
+  border-radius: 5px;
 }
-
-
-.content-item:nth-child(even){
-  float: right;
-  left: 10px;
-  right: 0;
-  
-  margin-left: 0;
-}
-
-.content-item:nth-child(even):after,
-.content-item:nth-child(even):before {
-  left: -20px;
-}
-
-
-
-.content-item:nth-child(even):after {
-  left: -53px;
-}
-
-.content-item h3{
-  font-size: 42px;
-  line-height: 46px;
-  font-weight: 700;
-  margin-top:0;
-  margin-bottom: 20px;
-  color: #001e5f;
-}
-
-.content-item h3 a{
-  color: #001e5f;
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-
-
-.content-item .text{
-  font-size: 18px;
-  line-height: 26px;
-}
-
-.content-item img{
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px;
-}
-
-.content-item .caption{
-  margin-top: 20px;
-  font-size: 17px;
-  line-height: 24px;
-  color: #666;
-}
-
-.content-item  time{
-  position: absolute;
-  bottom: 5px;
-  right: 10px;
-  color: #bbb;
-  font-size: 18px;
-  line-height: 23px;
-}
-
-.content-item i[class="fa-"]{
-  font-size: 16px;
-}
-
-.content-quote{
-  color: #fff;
-}
-
-
-.content-quote blockquote:before{
-  font-family: 'FontAwesome';
-  content: '\f10d';
-  font-size: 30px;
-}
-
-.content-quote blockquote,
-.content-quote blockquote small {
-  color: #fff;
-  border-color: #fff;
-}
-
-
-
-.content-quote time{
-  color: #efefef;
-}
-
-.content-photo img{
-  margin-bottom: 0;
-}
-
-.content-item .odd{
-  background: #56a1c9;
-  color: #ffffff;
-}
-
-.content-item .even{
-  background: #eaeaea;
-  color: #888;
-}
-
-
-.content-photo,
-.content-text,
-.content-chat,
-.content-audio, 
-.content-video{
-  padding-bottom: 60px;
-  left: -50px;
-}
-
-.content-photo time,
-.content-text time, 
-.content-chat time,
-.content-audio time,
-.content-video time{
-  position: absolute;
-  bottom: 15px;
-  right: 20px;
-}
-
-.content-item:first-child {
-  margin-top: 0;
-  left: -3%;
-}
-
-.content-end .content-avatar{
-  margin-bottom: -90px;
-}
-
-.content-end .content-avatar:after,
-.content-end .content-avatar:before {
-  top: -20px;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
-}
-
-
-
 /* ====================
     FIM - SOBRE NOS
    ==================== */ 
@@ -1000,13 +873,7 @@ footer span {
     width: 90%;
     margin-bottom: 6%;
   }
-  /*diminuindo o tamanho do quadrado do historia*/
-  .content-item {
-    width: 36%;
-  }
-  .content-item:first-child {
-    left: 8%;
-  }
+ 
 }
 
 @media (max-width: 870px){
@@ -1049,4 +916,11 @@ footer span {
     background-position: 30%;
   }
 
+  .sobre-esquerdo{
+    width: 70%;
+  }
+  
+  .sobre-direito{
+    width: 70%;
+  }
 }
