@@ -219,7 +219,8 @@ ul {
 
 .h2 {
   bottom: 75%; /* Ajusta a posição do título */
-  left: 8%; 
+  left: 4%; 
+  right: 2%;
   max-width: 550px;
   font-size: 35px; 
   color: #00091e; 
@@ -235,7 +236,8 @@ ul {
 
 .p {
   bottom: 60%; /* Ajusta a posição do texto */
-  left: 8%; 
+  left: 4%; 
+  right: 2%;
   font-size: 25px; 
   color: #000620; 
   text-align: left;
@@ -911,6 +913,10 @@ footer span {
     padding: 0;
     margin: 0;
     top: 60%;
+  }
+
+  .slide-container{
+    width: 90%;
   }
   #slide2{
     background-position: 30%;
