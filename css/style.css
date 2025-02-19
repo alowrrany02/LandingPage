@@ -896,7 +896,8 @@ footer span {
   }
   nav {
     margin: auto;
-    
+    padding-left: 15%;
+
   }
   /*responsividade das coisas do slide*/
   .h2{
