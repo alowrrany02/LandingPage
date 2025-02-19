@@ -1,7 +1,5 @@
 *{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -899,7 +897,6 @@ footer span {
   nav {
     margin: auto;
     margin-left: 30%;
-
   }
   /*responsividade das coisas do slide*/
   .h2{
