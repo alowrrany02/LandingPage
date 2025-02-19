@@ -897,6 +897,7 @@ footer span {
     display: none;
   }
   nav {
+    display: none;
     margin: auto;
     margin-left: 30%;
   }
