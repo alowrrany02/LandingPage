@@ -897,6 +897,7 @@ footer span {
   nav {
     margin: auto;
     margin-left: 30%;
+    overflow: auto;
   }
   /*responsividade das coisas do slide*/
   .h2{
