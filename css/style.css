@@ -191,8 +191,8 @@ ul {
 }
 
 #slide2{
-  background-image: url('../img/bmw2.jpg');
-  background-position: center;
+  background-image: url('../img/slide2.jpg');
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
