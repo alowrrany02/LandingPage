@@ -204,12 +204,7 @@ ul {
   background-size: cover;
 }
 
-#slide4{
-  background-image: url('../img/bmw4.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 
 .h2, .p {
   position: absolute;
